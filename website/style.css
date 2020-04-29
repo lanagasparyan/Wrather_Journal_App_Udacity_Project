@@ -1,0 +1,134 @@
+body {
+    background-image: url("rain2.jpeg");
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    /* grid-template-columns:  */
+    height: 100vh;
+    color: rgb(186, 53, 53);
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: fantasy;
+    margin-left: 5px;
+}
+
+.headline {
+    font-family: fantasy;
+    font-size: 5vw;
+    color: rgb(206, 65, 65);
+    font-weight: bolder;
+}
+
+.holder {}
+
+.entry {
+    background: rgba(59, 74, 107, .4);
+}
+
+#entryHolder {
+    width: 200px;
+}
+
+#date {}
+
+#temp {}
+
+#content {}
+
+.headline {}
+
+.title {}
+
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+
+label {
+    display: block;
+    font-size: 27px;
+}
+
+input {
+    background-color: #191729;
+    display: block;
+    height: 60px;
+    width: 320px;
+    color: #cac7b3;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button {
+    width: 400px;
+    height: 50px;
+    background: #191729;
+    color: #b4b3ab;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+textarea {
+    background-image: url('rain2.jpeg');
+    background-color: #191729;
+    color: #c6c4bf;
+    height: 200px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Reset style for HTML element on active to have no border*/
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+/* Style for Placeholder Text*/
+
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: #c9c8c2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #c7c5bc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #bbbab2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page__footer {
+    background: rgba(10, 26, 37, 0.493);
+    margin-top: 10px;
+    padding: 3em;
+    height: 2px;
+    color: #fff;
+}
+
+.page__footer p {
+    font-size: large;
+    color: rgb(184, 173, 173);
+}
